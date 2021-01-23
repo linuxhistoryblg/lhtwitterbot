@@ -1,2 +1,2 @@
 # lhtwitterbot
-Python Twitterbot implemented in Python3
+Twitterbot implemented in Python3
