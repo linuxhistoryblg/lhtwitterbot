@@ -3,6 +3,9 @@
 # Start dev container
 container=$(buildah from fedora)
 
+# tar app payload
+tar czvf app.tgz lhapp_class.py main.py wmip.py requirements.txt
+
 # Copy app.tgz to container
 buildah copy $container app.tgz /tmp/app.tgz
 
