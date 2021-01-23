@@ -1,0 +1,6 @@
+# TODO:
+script:
+  get_senderid.py
+    - Insert your Twitter credentials in the #Twitter Creds section ln. 3-7
+  main.py
+    - Insert your sender_id and a hotword of your choice into ln. 41
