@@ -37,7 +37,7 @@ Running lhtwitterbot inside of a container:
 
 If you would like to build a container suitable for use with the Podman runtime, execute prebuild.sh to zip the necessary components, and then execute build_script.sh to call Buildah to create a Podman container in the localhost repository called localhost/lhwtitterbot:latest. You can now run:
 
-  podman run -d --name <name of your choice> -e CONSUMER_KEY=aaaaBBBBccccDDDDeeeeffffGGGG -e CONSUMER_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG -e ACCESS_KEY=aaaaBBBBccccDDDDeeeeffffGGGG -e ACCESS_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG localhost/lhtwitterbot
+  podman run -d --name \<name of your choosing\> -e CONSUMER_KEY=aaaaBBBBccccDDDDeeeeffffGGGG -e CONSUMER_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG -e ACCESS_KEY=aaaaBBBBccccDDDDeeeeffffGGGG -e ACCESS_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG localhost/lhtwitterbot
 
 substituting your 4 Twitter API access keys for the examples above.
 
