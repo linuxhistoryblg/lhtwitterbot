@@ -24,8 +24,11 @@ Running lhtwitterbot outside of a container:
 If you intend to run lhtwitterbot outside of a container, install the additional required Python libraries with `pip3 install -r requirements.txt`. Make the 4 Twitter keys available to your environment with:
 
   export CONSUMER_KEY=aaaaBBBBccccDDDDeeeeffffGGGG
+  
   export CONSUMER_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG
+  
   export ACCESS_KEY=aaaaBBBBccccDDDDeeeeffffGGGG
+  
   export ACCESS_SECRET=aaaaBBBBccccDDDDeeeeffffGGGG
 
 and then execute lhtwitterbot with `python3 main.py`.
