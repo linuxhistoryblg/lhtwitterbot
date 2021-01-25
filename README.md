@@ -16,6 +16,7 @@ You will need a Twitter Developer account in order to access the Twitter API. Yo
 Procedure:
 
 Prepare the script (container or non-container)
+
 After cloning this repository, log into Twitter with the account you intend to run the bot with and send yourself a DM. Edit get_senderid.py and insert your 4 Twitter API keys into the 'Twitter Creds' section. Run get_senderid.py. This script will return an 18 digit number. This is your Twitter senderid. I've written filtering in main.py to only respond with your IP address when it sees a request with your chosen hotword and senderid to prevent malicious flooding. Insert your sender_id and a hotword of your choice into ln. 41 on main.py.
 
 Running lhtwitterbot outside of a container:
