@@ -41,6 +41,6 @@ If you would like to build a container suitable for use with the Podman runtime,
 
 substituting your 4 Twitter API access keys for the examples above.
 
-lhtwitterbot logs internally to /opt/log.txt in the container, and to <exec directory>/log.txt when executed outside of a container. Following which either of these fits your circumstances should result in output every 5 minutes after starting lhtwitterbot to let you know the program is active. The program will sit in an event loop until the container is stopped or a SIGINT is received. Test functionality by sending a DM to yourself via Twitter containing the hotword (I chose !ipaddress). On the next scheduled run the message containing the hotword will be deleted and replaced with the host's external IP address.
+lhtwitterbot logs internally to /opt/log.txt in the container, and to \<exec directory\>/log.txt when executed outside of a container. Following which either of these fits your circumstances should result in output every 5 minutes after starting lhtwitterbot to let you know the program is active. The program will sit in an event loop until the container is stopped or a SIGINT is received. Test functionality by sending a DM to yourself via Twitter containing the hotword (I chose !ipaddress). On the next scheduled run the message containing the hotword will be deleted and replaced with the host's external IP address.
 
 dcd 
