@@ -1,6 +1,4 @@
 # lhtwitterbot
-Twitterbot implemented in Python3
-# lhtwitterbot
 Python Twitterbot implemented in Python3
 
 Summary:
