@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+rm app.tgz
+tar czvf app.tgz lhapp_class.py main.py wmip.py requirements.txt
